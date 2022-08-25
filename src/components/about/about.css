@@ -5,7 +5,7 @@
 }
 
 .about__me {
-    width: 100%;
+    width: 90%;
     aspect-ratio: 1/1;
     border-radius: 2em;
     background: linear-gradient(45deg, transparent, var(--color-primary), transparent);
@@ -14,7 +14,7 @@
 }
 
 .about__me-image {
-    border-radius: 2em;
+    border-radius: 2rem;
     overflow: hidden;
     transform: rotate(10deg);
     transition: var(--transition);
@@ -67,6 +67,15 @@
     margin: 2rem 0 2.6rem;
     color: var(--color-light);
 }
+
+/* ====== CTA ====== */
+.cta {
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+}
+
 
 /* ====== MEDIA QUERIES MEDIUM DEVICES ====== */
 @media screen and (max-width: 1024px) {
